@@ -1,7 +1,8 @@
 import { useState } from 'react'
 
 import './App.css'
-import Bomba from './componentes/Bomba';
+import Hohoho from './componentes/Hohoho';
+
 
 function App(){
   
@@ -20,7 +21,9 @@ function App(){
 <br />
       <button onClick={cadastrar}>cadastrar</button>
 
-    <Bomba/>
+    
+    <Hohoho/>
+    
     </>
     
   )
